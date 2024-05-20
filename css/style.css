@@ -46,3 +46,31 @@ body {
     margin-bottom: 0;
 }
 
+/* Typography */
+
+.c 
+{
+    font-weight: 500;
+    font-family:"Hanken Grotesk", sans-serif; ;
+}
+
+.c h1 
+{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.c h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.c h3 {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.c__body-b 
+{
+    font-weight: bold;
+}
