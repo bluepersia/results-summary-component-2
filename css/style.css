@@ -1,0 +1,48 @@
+:root 
+{
+    --gradient-1: linear-gradient(180deg, #6943FF, #2F2CE9);
+    --gradient-2: linear-gradient(180deg, #4D21C9, hsla(241, 71%, 46%));
+
+    --c-yellow: hsl(40, 100%, 56%);
+    --c-yellow-light: hsl(40, 100%, 95%);
+
+    --c-blue: hsl(234, 85%, 45%);
+    --c-blue-light: hsl(234, 85%, 85%);
+
+    --c-green: hsl(166, 100%, 37%);
+    --c-green-light: hsl(166, 100%, 85%);
+
+    --c-red: hsl(0, 100%, 67%);
+    --c-red-light: hsl(0, 100%, 90%);
+
+    --c-dark-navy: #303B59;
+    --c-light-blue: #CAC9FF;
+    --c-very-light-blue: #ECF2FF;
+    --c-white: white;
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--c-very-light-blue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child
+{
+    margin-top: 0;
+}
+
+* :last-child
+{
+    margin-bottom: 0;
+}
+
